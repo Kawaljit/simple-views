@@ -4,23 +4,22 @@ import React from "react"
 
 const Header = ({ siteTitle }) => (
   <header
-    style={{
+    css={{
       background: `#ECEFF1`,
       borderBottom: `1px solid rgba(136, 136, 136, 0.12)`
     }}
   >
     <div
-      style={{
+      css={{
         margin: `0 auto`,
         padding: `0.5rem 0`,
-        width: `90%`
+        paddingLeft: `35px`
       }}
     >
       <Link
         to="/"
-        style={{
-          fontFamily: 'Roboto, sans-serif',
-          color: `black`,
+        css={{
+          color: `#000000`,
           textDecoration: `none`,
           fontWeight: '400'
         }}
