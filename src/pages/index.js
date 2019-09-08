@@ -1,15 +1,13 @@
 import React from "react"
 import Layout from "../components/layout"
+import Intro from "../components/intro"
+import Widgets from "../components/widgets"
 
-function App(){
+function App() {
   return (
     <Layout>
-      <div css={{
-        color: `black`,
-        fontSize: `14px`,
-        fontWeight: `normal`
-      }}>
-      </div>
+      <Intro />
+      <Widgets />
     </Layout>
   )
 }

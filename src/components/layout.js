@@ -4,14 +4,16 @@ import Menu from './menu'
 import Header from "./header"
 import "./layout.css"
 
-const Layout = ({ children }) => {
+function Layout({ children }) {
   return (
     <>
-      <Header siteTitle='Simple React Views' />
+      <Header siteTitle = '<SimpleViews />' />
       <Menu />
-      <div>
-        <main>{children}</main>
-      </div>
+      <main css={{
+        marginLeft: `250px`
+      }}>
+        {children}
+      </main>
     </>
   )
 }

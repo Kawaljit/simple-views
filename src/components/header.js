@@ -6,7 +6,11 @@ const Header = ({ siteTitle }) => (
   <header
     css={{
       background: `#ECEFF1`,
-      borderBottom: `1px solid rgba(136, 136, 136, 0.12)`
+      borderBottom: `1px solid rgba(136, 136, 136, 0.12)`,
+      position: `fixed`,
+      width: `100%`,
+      top: `0`,
+      zIndex: `1`
     }}
   >
     <div
