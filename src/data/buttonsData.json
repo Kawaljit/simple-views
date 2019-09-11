@@ -1,32 +1,22 @@
 [
   {
-    "css": {
-      
-    },
-    "title" : "Button 1"
+    "title" : "Button 1",
+    "cssClassName" : "button1"
   },
   {
-    "css": {
-      
-    },
-    "title" : "Button 2"
+    "title" : "Button 2",
+    "cssClassName" : "button2"
   },
   {
-    "css": {
-      
-    },
-    "title" : "Button 3"
+    "title" : "Button 3",
+    "cssClassName" : "button3"
   },
   {
-    "css": {
-      
-    },
-    "title" : "Button 4"
+    "title" : "Button 4",
+    "cssClassName" : "button4"
   },
   {
-    "css": {
-      
-    },
-    "title" : "Button 5"
+    "title" : "Button 5",
+    "cssClassName" : "button5"
   }
 ]
